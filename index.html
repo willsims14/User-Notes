@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+<head>
+	<title>User Notes</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+
+<header><h1>User Notes</h1></header>
+
+<div ng-include="'partials/navbar.html'"></div>
+
+
+
+<div ng-view>x</div>
+
+
+
+<!-- Dependencies -->
+<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/firebase/firebase.js"></script>
+<script type="text/javascript" src=""></script>
+
+<!-- App -->
+<script type="text/javascript" src="app/app.js"></script>
+<!-- Values -->
+<script type="text/javascript" src="app/values/fb-creds.js"></script>
+<!-- Factories -->
+<script type="text/javascript" src="app/factories/AuthFactory.js"></script>
+<script type="text/javascript" src="app/factories/NoteFactory.js"></script>
+<!-- Controllers -->
+<script type="text/javascript" src="app/controllers/LoginCtrl.js"></script>
+<script type="text/javascript" src="app/controllers/NewNoteCtrl.js"></script>
+<script type="text/javascript" src="app/controllers/NoteListCtrl.js"></script>
+<script type="text/javascript" src="app/controllers/NavCtrl.js"></script>
+</body>
+</html>

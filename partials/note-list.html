@@ -1,0 +1,10 @@
+<h1>Your Notes</h1>
+
+<div class="outer-note-card col-sm-4" ng-repeat="note in notes">
+	<div class="inner-note-card" >
+		<h3>{{note.title}}</h3>
+		<span>{{note.desc}}</span><br>
+		<span><small>{{note.due}}</small></span><br>
+		<input type="button" value="Delete" class="btn btn-default delete-btn" ng-click="deleteNote(note.id)">
+	</div>
+</div>
