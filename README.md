@@ -2,7 +2,7 @@
 #### Will Sims
 #### 2/27/2017
 
-__To successfully run this program, you must create a Firebase collection and then create a file (fb-creds.js) with the details specified in the fb-creds-boilerplate.js file.__
+__(To successfully run this program, you must create a Firebase collection and then create a file (fb-creds.js) with the details specified in the fb-creds-boilerplate.js file.)__
 
 In this exercise, you'll be requiring users to register and log into your application before they can use it. The user interface is very simple once they log in, because this is a basic application that will allow them to enter notes, and then view all notes.
 
